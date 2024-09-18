@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cf52717d0f7e5084ba94e484ce4707a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.2
+      value: 1.14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: cf52717d0f7e5084ba94e484ce4707a4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -195,6 +195,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cf52717d0f7e5084ba94e484ce4707a4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1097563897}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cf52717d0f7e5084ba94e484ce4707a4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1097563900}
   m_SourcePrefab: {fileID: 100100000, guid: cf52717d0f7e5084ba94e484ce4707a4, type: 3}
 --- !u!1 &705507993
 GameObject:
@@ -284,7 +287,7 @@ Transform:
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 4.105, z: 2.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -376,7 +379,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.3339688, y: -0, z: -0, w: 0.94258416}
-  m_LocalPosition: {x: 0, y: 6.07, z: -10.56}
+  m_LocalPosition: {x: 0, y: 11.95, z: -13.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -463,6 +466,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0.0004128963, y: 0.9099635, z: 0}
+--- !u!114 &1097563900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097563890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e469049372c2449a36d77c1097d497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1097780280 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fd70d1a0721029439091f7b11e3d60d, type: 3}
@@ -544,6 +559,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0.005806282, y: 0.9099635, z: 0}
+--- !u!114 &1097780288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097780280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4d5b70d16d13c46bfcfc9af5884640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1173185952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -574,7 +601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b2c892c09013c6c45a3132046ef07796, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.025999993
+      value: 2.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b2c892c09013c6c45a3132046ef07796, type: 3}
       propertyPath: m_LocalRotation.w
@@ -625,6 +652,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b2c892c09013c6c45a3132046ef07796, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1777228714}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b2c892c09013c6c45a3132046ef07796, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1777228717}
   m_SourcePrefab: {fileID: 100100000, guid: b2c892c09013c6c45a3132046ef07796, type: 3}
 --- !u!1001 &1321262117
 PrefabInstance:
@@ -695,6 +725,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fd70d1a0721029439091f7b11e3d60d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1097780285}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fd70d1a0721029439091f7b11e3d60d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1097780288}
   m_SourcePrefab: {fileID: 100100000, guid: 2fd70d1a0721029439091f7b11e3d60d, type: 3}
 --- !u!1 &1612053059
 GameObject:
@@ -883,6 +916,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: -0.06872416, y: 11.96276, z: 0}
+--- !u!114 &1777228717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777228707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927410e5ed273134a948b8ca700b38a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
